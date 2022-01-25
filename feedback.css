@@ -1,0 +1,80 @@
+
+  .nav {list-style-type: none;
+    background-color: #333;
+    overflow:hidden;
+   }
+    
+li {
+        float:left;
+    }
+    
+li a {text-decoration: none;
+      text-align:center;
+      padding: 10px 16px;
+      display:block;
+      color:white;
+      margin: 20px 0;
+      border-radius: 3px;
+      border: none;
+      display: flex;
+    } 
+    
+li a:hover {background-color: blueviolet ;
+text-decoration: none;} 
+    
+.menu-btn {color: #fff;
+    font-size: 23px;
+    cursor: pointer
+    display:none;}
+  
+
+body { background-color:#f8f9fa; color:#000000; font-family: "Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji"; font-size: 12pt; }
+h1 { color:#000000; font-family:"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji"; font-size:18pt; }
+p,li { color:#000000; font-family:"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji"; font-size:12pt; }
+.control-label { color:#000000; font-family:"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji"; font-size:12pt; }
+.internal { display: none; }
+.form-group {
+    margin-bottom: 1rem !important;
+}
+
+
+
+        .captcha {
+            width: 15%;
+            min-width: 120px;
+            display: inline;
+        }
+
+
+        .textend {
+            margin-top: 15px;
+            margin-bottom: 15px;
+        }
+
+        .checkbox {
+            margin-top: 0px;
+        }
+
+        .radio {
+            margin-top: 0px;
+        }
+
+        .zwtext {
+            margin-top: 10px;
+            margin-bottom: 10px;
+        }
+
+        .input-file {
+            border-width: 0px;
+            height: 100%;
+            background-color: transparent;
+        }
+
+body {
+        	margin-top: 15px;
+        	line-height: 1.5 !important;
+        }
+
+        h3 {
+          font-size: 1.3rem;
+        }
